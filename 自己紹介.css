@@ -1,0 +1,167 @@
+body{
+  width:100%;
+  text-align: center;
+  margin: 0;
+}
+
+header{
+  height: 100px;
+  background: 
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+
+li{
+  list-style: none;
+}
+
+.list{
+  padding-left: 20px;
+  opacity:0.7;
+  line-height: 100px;
+  color: white;
+  margin: 0 auto;
+  display: inline;
+}
+
+.list:hover{
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.title{
+  text-align: center;
+  height: 500px;
+  background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+.title h1{
+  font-size: 100px;
+  padding-top: 20px;
+  font-family: fantasy;
+}
+
+.shadow{
+  color: black;
+  text-shadow: 10px 10px grey;
+}
+
+.self-introduction{
+  height: 550px;
+  margin: 60px 0;
+}
+
+.heading{
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+.information-list{
+  float: right;
+  font-size: 30px;
+  padding-right: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.information-list li{
+  line-height: 70px;
+}
+
+.picture{
+  float: left;
+  width: 700px;
+  height: 400px;
+}
+
+.comment::before{
+  content: "⚽";
+}
+
+.comment::after{
+  content: "⚽";
+}
+
+.history{
+  float: left;
+  width: 50%;
+  height: 350px;
+  margin-bottom: 60px;
+}
+
+.shape{
+  position: relative;
+  height: 150px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.shape h3{
+  position: absolute;
+  font-size: 20px;
+  top: 30px;
+  left: 70px;
+}
+
+.text{
+  width: 90%;
+  padding-left: 30px;
+}
+
+.current{
+  margin-bottom: 60px;
+}
+
+.current p{
+  width:80%;
+  margin: 0 auto;
+}
+
+footer{
+  background: 
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  height: auto;
+  color: white;
+}
+
+footer p{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.fa{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fa:hover{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+@media(max-width:600px) {
+  .history{
+    width: 100%;
+  }
+}
